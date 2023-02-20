@@ -7,7 +7,6 @@
 
 body{
     background: linear-gradient(68.15deg, #61876E 16.62%, #B6E388 85.61%);
-    height: 100vh;
 }
 
 
@@ -42,9 +41,11 @@ body{
 }
 .cabecalho__nav__itens:hover{
     color:#2B7A0B;
+    font-size: 22px;
 }
 .cabecalho__logo:hover{
     color:#7DCE13;
+    font-size: 32px;
 }
 .conteudo{
     display: flex;
@@ -86,4 +87,38 @@ body{
     padding: 28px;
     margin: 0 0 10px 0;
     gap: 8px;
+}
+.rodape{
+    background-color: #395144;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0 14px 0;
+    gap: 36px;
+}
+.rodape__imagem{
+    height: 100px;
+}
+.rodape__texto{
+    font-family: 'Krona One',sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.rodape__imagem:hover{
+    height: 116px ;
+}
+.rodape__texto:hover{
+    color: #7DCE13;
+    font-size: 24px;
+}
+
+.conteudo__regras{
+    margin: 0 20px 0 20px;
+    padding: 24px;
+}
+
+.conteudo__desafio{
+    padding: 24px;
+    margin-bottom: 80px;
 }
