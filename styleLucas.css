@@ -6,6 +6,8 @@
 }
 
 body{
+    height: 100vh;
+    box-sizing: border-box;
     background: linear-gradient(68.15deg, #61876E 16.62%, #B6E388 85.61%);
 }
 
@@ -113,12 +115,8 @@ body{
     font-size: 24px;
 }
 
-.conteudo__regras{
-    margin: 0 20px 0 20px;
+.conteudo__regras,.conteudo__desafio{
+    margin: 120px 20px 120px 20px;
     padding: 24px;
 }
 
-.conteudo__desafio{
-    padding: 24px;
-    margin-bottom: 80px;
-}
