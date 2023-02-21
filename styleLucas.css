@@ -127,6 +127,9 @@ body{
         flex-direction: column;
         gap: 30px;
     }
+    .cabecalho__logo{
+        font-size: 1.8rem;
+    }
     .conteudo{
         margin: 5px;
     }
@@ -140,4 +143,14 @@ body{
     .rodape__texto{
         font-size: 0.8rem;
     }
+
+@media (max-width: 450px){
+    .cabecalho__logo{
+        font-size: 1.8rem;
+        
+    }
+    .conteudo__desafio{
+        margin-bottom: 200px;
+    }
+}    
 }
