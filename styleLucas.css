@@ -23,7 +23,7 @@ body{
 }
 .cabecalho__logo{
     font-family: 'Gloock',sans-serif;
-    font-size: 26px;
+    font-size: 1.44rem;
     color: #EEEEEE;
     background: #395144;
     padding: 12px;
@@ -38,16 +38,16 @@ body{
 .cabecalho__nav__itens{
     text-decoration: none;
     color: #000000;
-    font-size: 18px;
+    font-size: 1rem;
     font-family: 'Krona one',sans-serif;
 }
 .cabecalho__nav__itens:hover{
     color:#2B7A0B;
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 .cabecalho__logo:hover{
     color:#7DCE13;
-    font-size: 32px;
+    font-size: 1.8rem;
 }
 .conteudo{
     display: flex;
@@ -63,17 +63,17 @@ body{
 }
 .conteudo__titulo{
     font-family: 'Gloock',sans-serif;
-    font-size: 32px;
+    font-size: 1.8rem;
     margin: 0 0 32px 0;
 }
 .conteudo__subtitulo{
-    font-size: 21px;
+    font-size: 1.166rem;
     font-family: 'Gloock',sans-serif;
 
 }
 .conteudo__fases{
     font-family: 'Krona one',sans-serif;
-    font-size: 12px;
+    font-size: 0.7rem;
 }
 .conteudo__div1{
     display: flex;
@@ -120,3 +120,23 @@ body{
     padding: 24px;
 }
 
+@media (max-width: 500px){
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .conteudo{
+        margin: 5px;
+    }
+    .conteudo__fases{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .rodape__imagem{
+        height: 70px;
+    }
+    .rodape__texto{
+        font-size: 0.8rem;
+    }
+}
