@@ -73,7 +73,8 @@ body{
 }
 .conteudo__fases{
     font-family: 'Krona one',sans-serif;
-    font-size: 0.7rem;
+    font-size: 1rem;
+    text-align: center;
 }
 .conteudo__div1{
     display: flex;
@@ -120,7 +121,7 @@ body{
     padding: 24px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 800px){
     .cabecalho{
         display: flex;
         flex-direction: column;
