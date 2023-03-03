@@ -93,11 +93,11 @@ body{
 }
 .rodape{
     background-color: #395144;
-    margin-top: 60px;
+    margin-top: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 14px 0 14px 0;
+    padding: 1% 0 1% 0;
     gap: 36px;
 }
 .rodape__imagem{
